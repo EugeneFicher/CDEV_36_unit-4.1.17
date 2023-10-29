@@ -23,6 +23,15 @@ class MainClass
 
             Console.WriteLine("Your color is green!");
         }
+
+        else if (color == "yellow")
+        {
+            Console.BackgroundColor = ConsoleColor.Yellow;
+            Console.ForegroundColor = ConsoleColor.Black;
+
+            Console.WriteLine("Your color is yellow!");
+        }
+
         else
         {
             Console.BackgroundColor = ConsoleColor.Cyan;
